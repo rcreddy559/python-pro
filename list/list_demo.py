@@ -38,3 +38,5 @@ for state in states_of_india:
 two_word_states = [state for state in states_of_india if len(state.split()) == 2]
 print(two_word_states)
 
+two_list = [fruits, states_of_india]
+print(f"Two lists: {two_list}")
