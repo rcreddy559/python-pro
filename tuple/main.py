@@ -1,0 +1,16 @@
+t = (10, 20, 30, 40, 50,)  
+print("Tuple t: ", t)  # Output: (10, 20, 30, 40, 50)
+print("t[0]: ", t[0])        # Output: 10 (first element)  
+print("t[-1]: ", t[-1])       # Output: 50 (last element)  
+print("t[1:4]: ", t[1:4])      # Output: (20, 30, 40) (elements from index 1 to 3)  
+print("t[::-1]: ", t[::-1])     # Output: (50, 40, 30, 20, 10) (reversed tuple)
+print("t[4]: ", t[4])
+print("20 in t: ", 20 in t)
+print("99 in t: ", 99 in t)  # Output: False (99 is not in the tuple)
+# Output: True (20 is in the tuple)
+print("len(t): ", len(t))     # Output: 5 (length of the tuple)
+print("t.count(20): ", t.count(20))  # Output: 1 (count of 20 in the tuple)
+print("t.index(30): ", t.index(30))  # Output: 2 (index of first occurrence of 30)
+
+for i, item in enumerate(t):
+    print(f"Index {i}: {item}")
