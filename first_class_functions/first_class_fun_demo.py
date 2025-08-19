@@ -1,9 +1,9 @@
-def test(name):
+def print_hello(name):
     return f"Hello, {name}!"
 
-a = test # Assigning the function to a variable
+a = print_hello # Assigning the function to a variable
 print(a("Ravi"))  # Output: Hello, Ravi!
 
-def greet(fun2, msg):
-    return fun2(msg)
-print(greet(test, "Ravi"))  # Output: Hello, Ravi!
+def greet(f, msg):
+    return f(msg)
+print(greet(print_hello, "Ravi"))  # Output: Hello, Ravi!
