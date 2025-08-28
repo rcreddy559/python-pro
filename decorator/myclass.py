@@ -8,7 +8,7 @@ def method_decorator(func):
 
 class MyClass:
     @method_decorator
-    def myclass_method(self,):
+    def myclass_method(self):
         print("Namaste")
 
 obj = MyClass()
